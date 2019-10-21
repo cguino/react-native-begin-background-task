@@ -10,7 +10,7 @@ require "json"
    s.homepage = "https://github.com/cguino/react-native-begin-background-task"
    s.authors = package[:author]
    s.summary = package[:description]
-   s.source = { git: package[:repository][:url] }
+   s.source = { git: package[:repository] }
    s.source_files = "ios/*.{h,m}"
    s.platform = :ios, "8.0"
 
